@@ -37,7 +37,7 @@ def simulation(): #Funckaj do symluacji rzutu
         label_result_of_simulation.config(text=f"Drawing results: {tab_random_number_simulation}", font=('Arial, 12')) #Wyświetalnie losowania
         lenght_tab = len(tab_random_number_simulation) #Sprawdzanie długości listyw w celu policzenia średniego wyniku
         tab_sum = sum(tab_random_number_simulation) #Sumowanie wartości z tablicy
-        average_result.config(text=f"Average roll: {tab_sum/lenght_tab}", font=('Arial, 12')) #Obliczanie i wyświetalnie średniej wartości oczek
+        average_result.config(text=f"Average value: {tab_sum/lenght_tab}", font=('Arial, 12')) #Obliczanie i wyświetalnie średniej wartości oczek
 
 
 entry = tk.Entry(root) #Pole input
